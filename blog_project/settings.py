@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'blog.apps.BlogConfig', # new
 ]
 
@@ -118,4 +117,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+<<<<<<< HEAD
 STATIC_URL = '/templates/static/'
+=======
+# STATIC_URL = '/static/'
+>>>>>>> dc64c7cea136400a02f2003c40aaf14fa7f0bb00
